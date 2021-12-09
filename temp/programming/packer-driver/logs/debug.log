@@ -1,0 +1,728 @@
+debug: Thu, 09 Dec 2021 05:53:12 GMT
+debug: Project: /Users/Alok/Cocos 3D/HelloWorld3D
+debug: Targets: editor,preview
+debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open '/Users/Alok/Cocos 3D/HelloWorld3D/temp/programming/packer-driver/VERSION'
+debug: Clearing out the targets...
+debug: Engine path: /Applications/CocosCreator/Creator/3.3.0/CocosCreator.app/Contents/Resources/resources/3d/engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/Alok/Cocos 3D/HelloWorld3D/temp/programming/packer-driver/targets/editor/modules.json'
+debug: Loading cache costs 0.7145269997417927ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/Alok/Cocos 3D/HelloWorld3D/temp/programming/packer-driver/targets/preview/modules.json'
+debug: Loading cache costs 0.8470640005543828ms.
+debug: Sync engine features: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,physics-ammo,physics-2d-box2d,intersection-2d,primitive,profiler,particle-2d,audio,video,webview,tween,terrain,tiled-map,spine,dragon-bones
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 12.654679999686778ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: false
+debug: Target(editor) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Target(editor) ends with cost 120.47558499965817ms.
+debug: Target(preview) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Target(preview) ends with cost 114.70151500031352ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:51 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 69.72282900009304ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:30:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 05:59:52 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 249.21079900022596ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:59:51 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 07:10:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 11:52:55 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:02:50 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 155.55512000061572ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 05:59:52 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 07:10:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 11:52:55 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:02:50 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 350.3289339989424ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:10:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:02:50 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:52:57 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 144.04867500066757ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 07:10:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:00:09 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:02:50 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:52:57 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 181.16063399985433ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:01:11 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:52:57 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:54:13 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 84.23532400280237ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:01:11 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:52:57 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 13:54:13 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 135.81005600094795ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:11 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:49:10 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:54:13 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:41:43 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 203.22509500011802ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:11 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:49:10 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 13:54:13 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:41:43 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 217.19829099997878ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:10 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:50:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:41:43 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:43:03 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 82.32478500157595ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:49:10 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:50:01 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:41:43 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:43:03 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 115.3631500005722ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:50:04 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:43:03 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:43:07 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 79.73868300020695ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:01 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:50:04 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:43:03 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:43:07 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 134.45544400066137ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:04 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:51:16 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:43:07 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:44:17 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 78.27394099906087ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:04 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:51:16 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:43:07 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:44:17 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 116.73139500245452ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:16 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:51:56 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:44:17 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:44:56 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 81.86064399778843ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:16 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:51:56 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:44:17 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:44:56 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 110.29492799937725ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:56 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:54:43 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:44:56 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:47:33 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 81.44979699701071ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:56 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:54:43 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:44:56 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:47:33 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 167.02699899673462ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:43 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:54:51 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:47:33 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:47:53 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 88.2939969971776ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:43 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:54:51 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:47:33 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:47:53 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 171.15970899909735ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:51 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:57:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:47:53 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:50:58 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 99.3172190003097ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:54:51 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 08:57:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:47:53 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:50:58 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 131.32661899924278ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:57:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:02:52 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:50:58 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:55:55 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 325.7461769990623ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:57:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:02:53 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:50:58 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 14:55:55 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 185.7400850020349ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:52 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:10:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:55:55 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:03:54 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 143.87387599796057ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:02:53 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:10:55 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 14:55:55 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:03:54 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 198.10499200224876ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:11:21 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:03:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:04:23 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 164.5096979998052ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:10:55 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:11:22 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:03:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:04:23 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 170.9788030013442ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:11:21 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:15:56 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:04:23 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:08:54 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 85.78696899861097ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:11:22 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:15:56 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:04:23 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:08:54 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 120.37835799902678ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:15:56 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:16:35 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:08:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:09:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 260.08083099871874ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:15:56 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:16:35 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:08:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:09:31 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 305.18902000039816ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:35 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:30:50 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 49.214122999459505ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:16:35 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:30:50 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 95.93953900039196ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:30:50 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:54:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 15:23:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:46:10 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 113.38483399897814ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:30:50 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 09:54:00 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 15:23:54 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 15:46:10 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 143.6772780008614ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 10:57:05 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:09:31 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 16:43:58 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 15:46:10 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 16:50:08 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(editor) ends with cost 334.01218799874187ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:00 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 10:57:06 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 15:46:10 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 16:50:08 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 15:09:31 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 16:43:58 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(preview) ends with cost 264.02916399762034ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:57:05 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:17:01 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 16:50:08 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:09:22 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(editor) ends with cost 91.93465499952435ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 10:57:06 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:17:01 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 16:50:08 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:09:22 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(preview) ends with cost 168.57307700067759ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:17:01 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:17:20 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 16:43:58 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:10:24 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 147.63222800195217ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:17:01 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:17:20 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 16:43:58 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:10:24 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 157.68727400153875ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:17:20 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:30:19 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 17:09:22 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:23:15 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 17:10:24 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:23:19 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(editor) ends with cost 162.79866099730134ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:17:20 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 11:30:19 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 17:09:22 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:23:15 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 17:10:24 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:23:19 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(preview) ends with cost 213.2913500033319ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:30:19 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 12:07:57 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 17:23:19 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:44:25 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 99.99266500025988ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 11:30:19 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 12:07:57 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts. Last mtime: Thu Dec 09 2021 17:23:19 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 17:44:25 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 132.91563500091434ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:07:57 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 12:08:18 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts
+debug: Resolve cc/env from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as external dependency cc/env.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 55.48070399835706ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:07:57 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 12:08:18 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts
+debug: Resolve cc/env from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as external dependency cc/env.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 79.5933480001986ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:08:18 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 13:12:23 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 17:23:15 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 19:05:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(editor) ends with cost 174.43705600127578ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 12:08:18 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 13:12:23 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 17:23:15 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 19:05:27 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(preview) ends with cost 236.62404200062156ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:12:23 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 13:17:02 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 19:05:27 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 19:07:44 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(editor) ends with cost 189.64993900060654ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 13:12:23 GMT+0530 (India Standard Time), Current mtime: Thu Jan 01 1970 13:17:02 GMT+0530 (India Standard Time)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/migrate-canvas.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts.
+debug: Resolve file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts from cce:/internal/x/prerequisite-imports as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Detected change: file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts. Last mtime: Thu Dec 09 2021 19:05:27 GMT+0530 (India Standard Time), Current mtime: Thu Dec 09 2021 19:07:44 GMT+0530 (India Standard Time)
+debug: Inspect file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as cce:/internal/x/cc.
+debug: Resolve ./PlayerController from file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/GameManager.ts as file:///Users/Alok/Cocos%203D/HelloWorld3D/assets/scripts/PlayerController.ts.
+debug: Target(preview) ends with cost 198.8875100016594ms.
